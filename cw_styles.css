@@ -69,13 +69,22 @@ nav#outline{
 nav#outline>h1{
    text-align:normal;
 }
-nav#outline>ol{
+nav#outline>ol:first-child{
    line-height: 2em;
    margin-top:0px;
    margin-bottom:0px;
    margin-left:5px;
    margin-right:5px;
    list-style-type: upper-roman;
+}
+nav#outline>ol{
+   list-style:upper-alpha;
+}
+nav a:link, nav a:visited{
+color:rgb(101,101,101);
+}
+nav a:hover, nav a:active{
+color:rgb(97,97,211);
 }
 /* Outline Styles */
 
