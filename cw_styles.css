@@ -25,7 +25,7 @@ h1, h2{
    font-weight:normal;
 }
 nav a{
-   text-decoration:none
+   text-decoration:none;
 }
 footer{
    color:white;
@@ -38,7 +38,7 @@ footer{
 
 /* Body Header Styles */
 body>header{
-   background-color:rgb(97,97,211)
+   background-color:rgb(97,97,211);
 }
 body>header>h1{
    background-color:rgba(255,255,255,0.8);
@@ -46,13 +46,37 @@ body>header>h1{
    font-family: Limelight,cursive;
    margin:0px;
 }
-
+body>header>h1>span{
+   color:rgba(255,255,255,0.4);
+}
+#mainLinks{
+   padding-top:5px;
+   padding-bottom:5px;
+}
 
 /* Navigation Styles */
-
-
-
-
+#mainlinks{
+   color:white;
+}
+#mainlinks a:hover, #mainlinks a:active{
+   color:rgba(255, 245, 245, 0.8);
+   background-color:rgba(51,51,51,0.5);
+}
+nav#outline{
+   color:rgb(51,51,51);
+   font-size:0.8em;
+}
+nav#outline>h1{
+   text-align:normal;
+}
+nav#outline>ol{
+   line-height: 2em;
+   margin-top:0px;
+   margin-bottom:0px;
+   margin-left:5px;
+   margin-right:5px;
+   list-style-type: upper-roman;
+}
 /* Outline Styles */
 
 
