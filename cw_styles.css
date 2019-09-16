@@ -92,14 +92,30 @@ color:rgb(97,97,211);
 
 
 /* Section Styles */
-
-
+section{
+   background-color:rgb(220,220,220)
+}
+section header h1{
+   font size:2.2em;
+   left padding:10px;
+}
 
 
 /* Article Styles */
-
-
+article h2{
+   font size:1.4em;
+}
+article+p::first-letter{
+   font size:2em;
+   vertical-align:normal
+}
 
 
 /* Aside Styles */
-
+aside{
+   font-size:0.9em;
+}
+h1{
+   font-size:1.4em;
+   text-align:normal;
+}
